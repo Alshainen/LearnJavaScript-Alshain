@@ -1,4 +1,8 @@
-// Const itu nilai variabel yang ga bisa dirubah.
+/*
+    Const = variabelnya tidak dapat diubah.
+            (lebih tepatnya const ini berguna untuk
+             menetapkan nilai asli suatu variabel sebagai patokan.)
+*/
 
 let donut = 20;
 const donutPay = 100.12;

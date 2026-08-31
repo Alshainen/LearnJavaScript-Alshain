@@ -1,27 +1,20 @@
-const kurang = document.getElementsByTagName("button")[0];
-const reset = document.getElementsByTagName("button")[1];
-const tambah = document.getElementsByTagName("button")[2];
-const angkaTotal = document.getElementsByTagName("p")[0];
-
-let angka = 0;
+let kurang = document.getElementsByTagName(`button`)[0];
+let reset = document.getElementsByTagName(`button`)[1];
+let tambah = document.getElementsByTagName(`button`)[2];
+let isi = document.getElementsByTagName(`label`)[0];
+let nilai = 0;
 
 kurang.onclick = function(){
-    angka--;
-    angkaTotal.textContent = angka;
+    nilai--;
+    isi.textContent = nilai;
 }
 
 reset.onclick = function(){
-    angka = 0;
-    angkaTotal.textContent = angka;
+    nilai = 0;
+    isi.textContent = nilai;
 }
 
 tambah.onclick = function(){
-    angka++;
-    angkaTotal.textContent = angka;
+    nilai++;
+    isi.textContent = nilai
 }
-
-/*
-    Intinya gampang banget, kita cuman perlu deklarasi
-    variabelnya (biar lebih mudah kedepannya),
-    setelah itu tinggal mainin function onlick aja.
-*/
