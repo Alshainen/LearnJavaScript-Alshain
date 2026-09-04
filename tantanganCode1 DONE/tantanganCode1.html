@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tantanganCode1</title>
+    <link rel="stylesheet" href="tantanganCode1.css">
+</head>
+<body>
+    <div id="inputAngka">
+        <div id="input1">
+            <label for="angka1">Ketik Angka Pertama</label>
+            <input type="text" id="angka1">
+        </div>
+
+        <div id="input2">
+            <label for="angka2">Ketik Angka Kedua</label>
+            <input type="text" id="angka2">
+        </div>
+    </div>
+
+    <div id="opsi">
+        <label for="operasi">Tentukan Jenis operasi</label>
+        <select name="operasi" id="operasi">
+            <optgroup label="Operasi">
+            <option value="+" id="tambah">Tambah</option>
+            <option value="-" id="kurang">Kurang</option>
+            <option value="*" id="kali">Kali</option>
+            <option value="/" id="bagi">Bagi</option>
+            </optgroup>
+        </select>
+    </div>
+
+    <div id="member">
+        <label>Member</label>
+
+        <div id="checkYes">
+            <label for="memberCheckYes">Ya</label>
+            <input type="radio" name="memberCheck" id="memberCheckYes">
+        </div>
+
+        <div id="checkNo">
+            <label for="memberCheckNo">Tidak</label>
+            <input type="radio" name="memberCheck" id="memberCheckNo">
+        </div>
+    </div>
+
+    <button type="submit" id="submit">submit</button>
+
+    <p id="hasilnya">Hasilnya adalah: </p>
+    <script src="tantanganCode1.js"></script>
+</body>
+</html>

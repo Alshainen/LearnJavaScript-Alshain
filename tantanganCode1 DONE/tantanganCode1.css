@@ -1,0 +1,29 @@
+#inputAngka{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#input1{
+    margin-bottom: 20px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+}
+
+#input2{
+    margin-bottom: 20px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+}
+
+#opsi{
+    margin-bottom: 20px;
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+}
+
+#member{
+    margin-bottom: 20px;
+}
