@@ -1,0 +1,97 @@
+main{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.judulWeb{
+    margin: 80px;
+    width: 620px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: rgb(205, 206, 255);
+}
+
+#namaContainer{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#namaContainer > label{
+    font-size: 25px;
+}
+
+#namaContainer > label:nth-child(2){
+    width: 211px;
+    font-size: 10px;
+    white-space: pre-line;
+    line-height: 15px;
+    display: none;
+    color: rgb(255, 0, 0);
+}
+
+#namaContainer > input{
+    margin: 25px 0;
+    width: 210px;
+    height: 20px;
+    text-align: center;
+    border: black solid 2px;
+    border-radius: 30px;
+}
+
+#umurContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#umurContainer > label:nth-child(1){
+    font-size: 25px;
+}
+
+#umurContainer > label:nth-child(2){
+    width: 211px;
+    font-size: 10px;
+    white-space: pre-line;
+    line-height: 15px;
+    display: none;
+    color: rgb(255, 0, 0);
+}
+
+#umurContainer > input{
+    margin: 25px 0;
+    width: 205px;
+    height: 20px;
+    text-align: center;
+    border: black solid 2px;
+    border-radius: 30px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    margin: 40px 0;
+    border-radius: 30px;
+}
+
+#output{
+    font-size: 20px;
+    white-space: pre-line;
+    line-height: 25px;
+    display: none;
+}
+
+#outputTwo{
+    white-space: pre-line;
+    line-height: 25px;
+    display: none;
+}
