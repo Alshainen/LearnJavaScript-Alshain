@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+}
+
+main{
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main > h1{
+    font-size: 38px;
+}
+
+#blokLingkaran{
+    margin: 50px 0;
+    width: 350px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 65px;
+}
+
+.lingkaran{
+    width: 30px;
+    height: 30px;
+    border: black solid 1px;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.lingkaran > #one{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgb(66, 175, 175);
+}
+
+.lingkaran > #two{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgb(66, 77, 175);
+}
+
+.lingkaran > #three{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgb(113, 66, 175);
+}
+
+.lingkaran > #four{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: rgb(175, 66, 160);
+}
+
+#blokVerifikasi{
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: black solid 2px;
+    border-radius: 50px;
+}
+
+#judulIsiVerifikasi{
+    font-size: 25px;
+    line-height: 35px;
+    white-space: pre-line;
+}
+
+#isiVerifikasi{
+    line-height: 23px;
+    white-space: pre-line;
+}
+
+.hasil{
+    margin: 5px 0;
+}
+
+#hasila{
+    font-size: 15px;
+    display: none;
+}
+
+#hasilb{
+    font-size: 15px;
+    display: none;
+}
+
+#hasilc{
+    font-size: 15px;
+    display: none;
+}
+
+#isiInput{
+    margin: 30px 0;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    display: none;
+    border: black solid 2px;
+    border-radius: 30px;
+}
+
+#blokVerifikasi > button{
+    margin: 40px 0 0;
+    padding: 0 30px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    border: black solid 2px;
+    border-radius: 15px;
+    background-color: rgb(176, 255, 229);
+
+    transition: background-color 0.25s;
+}
+
+#blokVerifikasi > label{
+    font-size: 13px;
+    display: none;
+    color: red;
+}
+
+#blokVerifikasi > button:hover{
+    background-color: rgb(86, 216, 216);
+}
+
+
+#blokVerifikasi > button:active{
+    border: rgb(189, 189, 189) solid 2px;
+    background-color: rgb(176, 255, 229);
+}
