@@ -1,0 +1,49 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    width: 450px;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 5px 5px 15px rgb(141, 141, 141);
+}
+
+form > input{
+    margin: 30px 0;
+    text-align: center;
+}
+
+form > button{
+    margin: 30px 0 10px;
+    padding: 5px;
+    font-size: 17px;
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+    background-color: crimson;
+    color: white;
+
+    transition: background-color 0.25s;
+}
+
+form > button:hover{
+    background-color: rgb(146, 12, 39);
+}
+
+form > button:active{
+    background-color: crimson;
+}
+
+p{
+    text-align: center;
+    white-space: pre-line;
+    line-height: 22px;
+}
