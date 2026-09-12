@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    margin: 5px 0 20px;
+    padding: 25px;
+    width: 500px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgb(123, 123, 123);
+}
+
+main > h1{
+    margin: 0;
+    width: 100%;
+    height: 12%;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: calc(0% + 0.5px);
+    border-radius: 0 0 50px 50px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#listBarang{
+    margin: 25px 0 0;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 110px;
+}
+
+.overflowButton{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.barang{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 2px 2px 7px rgb(123, 123, 123);
+}
+
+.buttonBarang{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: white;
+}
+
+.gambarBarang{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+}
+
+.hargaBarang{
+    padding: 0 0 0 5px;
+    width: 50%;
+    height: 23px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    bottom: calc(63% + 0.5px);
+    background-color: blueviolet;
+    color: white;
+}
+
+.namaBarang{
+    width: 150%;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+    top: calc(100% + 0.5px);
+}
+
+.tabelHarga {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    position: absolute;
+    top: calc(140% + 0.5px);
+}
+
+.inputHarga{
+    width: 30px;
+    text-align: center;
+}
+
+.buttonPlus, .buttonMinus{
+    width: 25px;
+    height: 25px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+
+#hasilBarang{
+    padding: 25px;
+    width: 500px;
+    height: 100px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgb(123, 123, 123);
+    overflow: hidden;
+}
+
+#hasilBarang > #keteranganAtas{
+    margin-left: 43%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: absolute;
+    top: calc(10% + 0.5px);
+}
+
+#hasilBarang > #keteranganBawah{
+    padding-left: 26%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 300px;
+    position: absolute;
+    top: calc(75% + 0.5px);
+    background-color: blueviolet;
+    color: white;
+}
+
+#barangTermahal{
+    white-space: pre-line;
+}
